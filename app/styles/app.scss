@@ -1,4 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Vollkorn:400italic,400);
+@import 'colors';
+@import 'variables';
 
 html, body {
   height: 100%;
@@ -9,8 +11,23 @@ body {
   text-align: center;
 }
 
+h1 {
+  margin: 1em;
+}
+
+.container {
+  background: #edf1d4;
+  height: 600px;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1em 2em;
+
+}
+
 .sliders {
-  height: 400px;
+  position: relative;
+  height: 70%;
+  width: 100%;
 
   .slider {
     position: relative;
