@@ -1,5 +1,41 @@
 @import url(//fonts.googleapis.com/css?family=Vollkorn:400italic,400);
 
-body {
+html, body {
+  height: 100%;
   font-family: 'Vollkorn', serif;
+}
+
+body {
+  text-align: center;
+}
+
+.sliders {
+  position: relative;
+  height: 400px;
+
+  .slider {
+    display: inline-block;
+  }
+
+  .slider-ui {
+    display: inline-block;
+    height: 100%;
+    height: 400px;
+    margin: 0 20px;
+  }
+
+  .markers {
+    .marker {
+      position: absolute;
+      width: 40px;
+      border-bottom: 1px solid #ccc;
+
+      @for $i from 1 through 10 {
+        // :nth-of-type(#{$i}) {
+        &.marker-#{$i}0 {
+          bottom: #{$i * 10%};
+        }
+      }
+    }
+  }
 }
