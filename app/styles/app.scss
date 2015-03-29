@@ -1,6 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=Vollkorn:400italic,400);
+@import url('//fonts.googleapis.com/css?family=Vollkorn:400italic,400');
 @import 'colors';
 @import 'variables';
+@import 'navigation';
 
 html, body {
   height: 100%;
@@ -30,16 +31,52 @@ h4 {
   }
 }
 
+a {
+  color: #477dca;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken(#477dca, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+article {
+  padding: 1em;
+  text-align: left;
+}
+
+article.video {
+  text-align: center;
+}
+
+iframe {
+  @media only screen and (max-width:31.25em) {
+    width: 100%;
+  }
+}
+
 .container {
   background: #f5f7f9;
-  height: 100vh;
+  height: calc(100vh - 80px);
   margin: 0 auto;
-  padding: 0em 2em;
+  padding: 1em 2em 0 2em;
+
+  @media only screen and (max-width:31.25em) {
+      padding: 0;
+    }
 }
 
 .sliders {
   position: relative;
-  height: 70%;
+  height: 80%;
   margin: 0 auto;
   max-width: 840px;
   width: 100%;
