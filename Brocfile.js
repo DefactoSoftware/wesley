@@ -19,5 +19,7 @@ var app = new EmberApp();
 
 app.import('bower_components/nouislider/distribute/jquery.nouislider.min.css');
 app.import('bower_components/nouislider/distribute/jquery.nouislider.min.js');
+app.import('bower_components/ic-styled/main.js');
+app.import('bower_components/ic-tabs/dist/globals/main.js');
 
 module.exports = app.toTree();

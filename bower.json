@@ -13,6 +13,7 @@
     "ember-qunit": "0.1.8",
     "ember-qunit-notifications": "0.0.4",
     "qunit": "~1.15.0",
-    "nouislider": "~7.0.8"
+    "nouislider": "~7.0.8",
+    "ic-tabs": "~0.1.3"
   }
 }
