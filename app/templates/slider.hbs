@@ -14,4 +14,9 @@
   <span>100</span>
 </div>
 
-<h4>{{view.title}}</h4>
+<h4>
+  {{#tool-tipster title=view.explanation position="bottom"
+    maxWidth="400"}}
+    {{view.title}}
+  {{/tool-tipster}}
+</h4>
