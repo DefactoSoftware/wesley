@@ -12,8 +12,6 @@ Router.map(function() {
   this.route('instructions', { path: '/instructions' });
   this.route('prom', { path: '/prom'});
   this.route('option', { path: '/option'});
-  this.route('resources', { path: '/resources' });
-  this.route('contact', { path: '/contact' });
 });
 
 export default Router;
