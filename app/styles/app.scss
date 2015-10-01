@@ -65,15 +65,23 @@ iframe {
   }
 }
 
+.ember-view {
+  height: 100%;
+}
+
 .container {
   background: #f5f7f9;
-  height: calc(100vh - 80px);
+  height: 100%;
   margin: 0 auto;
   padding: 1em 2em 0 2em;
 
   @media only screen and (max-width:31.25em) {
       padding: 0;
     }
+}
+
+.slider-container {
+  height: 80%;
 }
 
 .sliders {
