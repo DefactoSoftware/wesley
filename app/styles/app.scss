@@ -35,6 +35,7 @@ a {
   color: #477dca;
   text-decoration: none;
   transition: color 0.1s linear;
+  cursor: pointer;
 
   &:active,
   &:focus,
@@ -64,6 +65,69 @@ iframe {
     width: 100%;
   }
 }
+
+.modal {
+  position: relative;
+  z-index: 9999;
+
+  .modal-backdrop {
+    position: fixed;
+    background: rgba(#000, 0.8);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .modal-dialog {
+    background: #fff;
+    padding: 1em;
+    max-width: 800px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  bottom: 0;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+
+  &:after,
+  &:before {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: rotate(45deg);
+    width: 0.15em;
+    height: 1.5em;
+    background: #46494a;
+    content: '';
+    display: block;
+    margin: -3px 0 0 -1px;
+  }
+
+  &:hover:after,
+  &:hover:before {
+    background: darken(#46494a, 10%);
+  }
+
+  &:before {
+    transform: rotate(-45deg);
+  }
+}
+
 
 .active {
   text-decoration: underline;
