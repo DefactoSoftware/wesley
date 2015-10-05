@@ -15,11 +15,20 @@ export default Ember.Route.extend({
         parentView: 'application'
       });
     },
+    closeWelcome: function() {
+      window.Cookies.set('welcome-modal', 'hide', { expires: 14 });
+      return this.disconnectOutlet({
+        outlet: 'modal',
+        parentView: 'application'
+      });
+    },
     didTransition: function() {
-      window.setTimeout(
-        function () {
-          this.send('openModal', 'welcome-modal');
-        }.bind(this), 2000);
+      if (window.Cookies.get('welcome-modal') !== 'hide') {
+        window.setTimeout(
+          function () {
+            this.send('openModal', 'welcome-modal');
+          }.bind(this), 2000);
+      }
     }
   }
 });
