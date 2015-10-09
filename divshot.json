@@ -1,5 +1,8 @@
 {
   "name": "wesley",
   "root": "./dist",
-  "exclude": ["/tests"]
+  "exclude": ["/tests"],
+  "routes": {
+    "/**": "index.html"
+  }
 }
