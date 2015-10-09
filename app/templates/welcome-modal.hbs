@@ -1,16 +1,21 @@
 <div class="modal">
-  <div class="modal-backdrop" {{action 'closeWelcome'}}></div>
+  <div class="modal-backdrop" {{action 'closeModal'}}></div>
   <div class="modal-welcome">
     <div class="modal-header">
-      <h1>Hallo!</h1>
-      <a class="modal-close" {{action 'closeWelcome'}}></a>
+      <h1>Welkom op de OPT-website!</h1>
+      <a class="modal-close" {{action 'closeModal'}}></a>
     </div>
     <div class="modal-content">
       <article>
         <p>
-          Welkom bij de OPT!
+          U kunt hier:
         </p>
-        <a {{action 'closeWelcome'}}>Sluiten</a>
+        <ul>
+          <li>De OPT gebruiken als instrument</li>
+          <li> Meer informatie over de OPT bekijken</li>
+          <li>Informatie bekijken over onderzoeken die met de OPT gedaan worden</li>
+        </ul>
+        <a {{action 'closeWelcome'}}>Klik hier als u deze informatie een volgende keer niet opnieuw wilt weergeven</a>
       </article>
     </div>
   </div>
