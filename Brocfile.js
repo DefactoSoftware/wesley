@@ -21,5 +21,6 @@ app.import('bower_components/nouislider/distribute/jquery.nouislider.min.css');
 app.import('bower_components/nouislider/distribute/jquery.nouislider.min.js');
 app.import('bower_components/ic-styled/main.js');
 app.import('bower_components/ic-tabs/dist/globals/main.js');
+app.import('bower_components/js-cookie/src/js.cookie.js');
 
 module.exports = app.toTree();

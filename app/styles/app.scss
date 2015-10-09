@@ -91,6 +91,18 @@ iframe {
     overflow: scroll;
     width: 100%;
   }
+
+  .modal-welcome {
+    background: #fff;
+    left: 50%;
+    max-width: 800px;
+    overflow: scroll;
+    padding: 1em;
+    position: fixed;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+  }
 }
 
 .modal-close {
