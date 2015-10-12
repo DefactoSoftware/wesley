@@ -6,11 +6,31 @@
     </a>
 
     <ul class="links">
-      <li>{{#link-to 'opt'}}De OPT{{/link-to}}</li>
-      <li>{{#link-to 'video'}}Video{{/link-to}}</li>
-      <li>{{#link-to 'instructions'}}Instructies{{/link-to}}</li>
+      <li>
+        {{#link-to 'opt'}}
+          De OPT
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'video'}}
+          {{t 'navigation.video'}}
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'instructions'}}
+          {{t 'navigation.instructions'}}
+        {{/link-to}}
+      </li>
       <li>{{#link-to 'prom'}}PROM-studie{{/link-to}}</li>
       <li>{{#link-to 'option'}}OPTion-studie{{/link-to}}</li>
+      <li>
+        <a {{action 'changeLocaleEn'}}>
+          <img alt="Nederlands" src="assets/en.gif" class="flag">
+        </a>
+        <a {{action 'changeLocaleNl'}}>
+          <img alt="Nederlands" src="assets/nl.gif" class="flag">
+        </a>
+      </li>
     </ul>
   </div>
 </header>
