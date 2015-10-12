@@ -1,7 +1,16 @@
 export default {
   'navigation': {
+    'theOPT': 'The OPT',
     'video': 'Video',
-    'instructions': 'Instructions'
+    'instructions': 'Instructions',
+    'prom': 'PROM Study',
+    'opt': 'OPT Study'
+  },
+  'sliders': {
+    'alive': 'Keeping You Alive',
+    'independence': 'Maintaining Independance',
+    'reducingPain': 'Reducing Pain',
+    'reducingSymptoms': 'Reducing Other Symptoms'
   },
   'instructions': {
     'p1': '<p>Often we are faced with different situations where we have to make a choice.  When you can’t get everything you want, and have to give up one thing in order to get something else, this is a trade-off.</p><p>When you think about what doctors are trying to do when they treat you, regardless of your specific conditions, the doctor is probably trying to provide you with one or more of the following outcomes:</p>',

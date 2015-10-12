@@ -1,7 +1,16 @@
 export default {
   'navigation': {
+    'theOPT': 'De OPT',
     'video': 'Video',
-    'instructions': 'Instructions'
+    'instructions': 'Instructies',
+    'prom': 'PROM studie',
+    'opt': 'OPT studie'
+  },
+  'sliders': {
+    'alive': 'Levensverlenging',
+    'independence': 'Onafhankelijkheid bewaren',
+    'reducingPain': 'Pijn verminderen',
+    'reducingSymptoms': 'Andere klachten verminderen'
   },
   'instructions': {
     'p1': 'Voorafgaand aan het gebruik van de OPT geeft de zorgverlener een korte uitleg. Eerst worden de vier verschillende behandeldoelen toegelicht.',
