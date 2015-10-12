@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-
+  i18n: Ember.inject.service(),
   actions: {
     openModal: function(modalName) {
       return this.render(modalName, {
@@ -21,6 +21,12 @@ export default Ember.Route.extend({
         outlet: 'modal',
         parentView: 'application'
       });
+    },
+    changeLocaleEn: function() {
+      this.get('i18n').set('locale', 'en');
+    },
+    changeLocaleNl: function() {
+      this.get('i18n').set('locale', 'nl');
     }
   }
 });
