@@ -38,9 +38,8 @@ export default {
   'option': {
     'p1': 'The department general practice of the UMCG conducts research on the use of the OPT. In October 2015 the OPTion study started. Elderly patients (≥ 70 years) from hospitals in the north of the Netherlands who have just been told they (probably) have incurable cancer, can participate. They will be divided into two groups by drawing lots. One group will receive care as usual, the second group has conversations with the GP to explore the treatment preferences using the OPT.',
     'team': 'The OPTion project team consists of:',
-    'ul1': '<li>Ms. Dr A.J. (Annette) Berendsen, GP and project leader</li><li>Mr. Dr J. Schuling (Jan), former GP and researcher</li><li>Ms. Drs. M.E. (Mariken) Stegmann, general practitioner in training and PhD candidate</li><li>Ms. Prof. Dr. M.Y. (Marjolein) Berger, GP and head of department general practice</li>',
+    'ul2': '<li>Ms. Dr A.J. (Annette) Berendsen, GP and project leader</li><li>Mr. Dr J. Schuling (Jan), former GP and researcher</li><li>Ms. Drs. M.E. (Mariken) Stegmann, general practitioner in training and PhD candidate</li><li>Ms. Prof. Dr. M.Y. (Marjolein) Berger, GP and head of department general practice</li>',
     'contact': 'Contact Information',
-    'ul2': '<li>Tel: <a href="tel:06 155 25 388">06 155 25 388</a></li><li>Fax: 050 363 2964 (attn. OPTion)</li><li><a href="mailto:option-studie@umcg.nl">option-studie@umcg.nl</a></li>'
-
+    'ul3': '<li>Tel: <a href="tel:+31 6 155 25 388">+31 615 525 388</a></li><li>Fax: +31 50 363 2964 (attn. OPTion)</li><li><a href="mailto:option-studie@umcg.nl">option-studie@umcg.nl</a></li>'
   }
 };

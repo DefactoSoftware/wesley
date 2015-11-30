@@ -3,19 +3,26 @@
   <p>
     {{t 'option.p1'}}
   </p>
-
+    <ul>
+      {{t 'option.ul1'}}
+      {{#if isNl}}
+        <li>
+          <a {{action 'openModal' 'example-option' }}>
+            {{t 'option.li1'}}
+          </a>
+        </li>
+      {{/if}}
+    </ul>
   <p>
     {{t 'option.team'}}
   </p>
   <ul>
-    {{t 'option.ul1'}}
+    {{t 'option.ul2'}}
   </ul>
 
     {{t 'option.contact'}}
 
   <ul>
-    <li>Tel: <a href="tel:06 155 25 388">06 155 25 388</a></li>
-    <li>Fax: 050 363 2964 (t.n.v. OPTion)</li>
-    <li><a href="mailto:option-studie@umcg.nl">option-studie@umcg.nl</a></li>
+    {{t 'option.ul3'}}
   </ul>
 </article>

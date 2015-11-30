@@ -2,5 +2,27 @@
   {{t 'instructions.p1'}}
   {{t 'instructions.ul1'}}
   {{t 'instructions.p2'}}
-  {{t 'instructions.rest'}}
+
+
+  {{#if isNl}}
+    {{t 'instructions.ul2'}}
+    {{t 'instructions.p3'}}
+    <ul>
+      <li>
+        {{t 'instructions.li1'}}
+      </li>
+      <li>
+        <a {{action 'openModal' 'example-prom'}}>
+          {{t 'instructions.li2'}}
+        </a>
+      </li>
+      <li>
+        <a {{action 'openModal' 'example-option'}}>
+          {{t 'instructions.li3'}}
+        </a>
+      </li>
+    </ul>
+  {{else}}
+    {{t 'instructions.rest'}}
+  {{/if}}
 </article>
