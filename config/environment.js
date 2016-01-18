@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'wesley',
     environment: environment,
     baseURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     i18n: {
       defaultLocale: 'nl'
     },
@@ -43,7 +43,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/wesley'
   }
 
   return ENV;
