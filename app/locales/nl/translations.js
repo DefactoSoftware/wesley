@@ -18,7 +18,7 @@ export default {
     'p2': 'Vervolgens wordt de patiënt uitgenodigd om aan te geven hoe belangrijk hij/zij deze doelen vindt.',
     'ul2': '<ul><li> Elk behandeldoel krijgt een score van 0-100. Hoe hoger de uitkomst, hoe meer belang de patiënt hecht aan dit behandeldoel. </li> <li> Daarbij geldt dat niet alle doelen even belangrijk mogen zijn; er moet een rangorde worden aangegeven. Dit gaat door middel van het afruilprincipe: hoe belangrijker men één bepaald behandeldoel vindt, des te minder aan de andere doelen kan worden voldaan. </li></ul>',
     'p3': '<p>De uitslag kan in de vorm van een score worden genoteerd. Ervaring leert dat een consult waarin de OPT gebruikt wordt 10-30 minuten duurt. Uit onderzoek onder huisartsen en patiënten blijkt dat men positief is over het instrument en dat het eenvoudig, gemakkelijk en snel te gebruiken is. </p>',
-    'li1': '<a href="/video">Bekijk hier</a> een video met een voorbeeld van een OPT-aankondiging door een huisarts',
+    'li1': '<a href="#/video">Bekijk hier</a> een video met een voorbeeld van een OPT-aankondiging door een huisarts',
     'li2': 'Uitgebreid voorbeeld PROM',
     'li3': 'Uitgebreid voorbeeld OPTion'
   },
