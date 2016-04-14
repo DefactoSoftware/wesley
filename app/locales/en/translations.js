@@ -18,7 +18,7 @@ export default {
     'p2': '<p>Subsequently the patient is invited to express his/her appreciation for each treatment goal.</p>',
     'ul2': '<ul><li>Each goal is allotted a score between 0 and 100. The higher the score, the more important this goal is for the patient.</li><li>The sliders of different goals cannot be put at the same height; the goals have to be ranked. By choosing one of the outcomes as very important, the patient is willing to give up some of the others in order to get more of the most important one.</li></ul>',
     'p3': '<p>This process will result in a score of four numbers. From experience we know an OPT-consultation takes 10-30 minutes. General practitioners and patients are positive about the value of the tool and say it’s easy and fast.</p>',
-    'li1': '<a href="/video">Click here</a> for a video of an example of the beginning of an OPT-conversation'
+    'li1': '<a href="#/video">Click here</a> for a video of an example of the beginning of an OPT-conversation'
   },
   'video': {
     'introduction': 'In the video below you see an example of the OPT in practice In this example the OPT is used with an elderly patient who uses a variety of medications',
