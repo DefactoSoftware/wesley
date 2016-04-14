@@ -8,13 +8,17 @@ export default {
   },
   'sliders': {
     'alive': 'Keeping You Alive',
+    'aliveTooltip': 'Aiming at living as long as possible.',
     'independence': 'Maintaining Independance',
+    'independenceTooltip': 'Aiming at as much independence as possible.',
     'reducingPain': 'Reducing Pain',
-    'reducingSymptoms': 'Reducing Other Symptoms'
+    'reducingPainTooltip': 'Aiming at a situation with as little pain as possible.',
+    'reducingSymptoms': 'Reducing Other Symptoms',
+    'reducingSymptomsTooltip': 'Aiming at a situation with as less symptom burden as possible. It is important that a patient specifies which symptom is bothering him/her. This can be for example dizziness, nausea, shortness of breath of itch.'
   },
   'instructions': {
     'p1': '<p>Before using the OPT, the physician will give a short explanation about the tool. First the four treatment goals will be explained.</p>',
-    'ul1': '<ul><li>Extending life <br> Aiming at living as long as possible</li><li>Maintaining independence <br> Aiming at as much independence as possible</li><li>Reducing or eliminating pain<br> Aiming at a situation with as less pain as possible</li><li>Reducing or eliminating other symptoms <br> Aiming at a situation with as less symptom burden as possible. It is important that a patient specifies which symptom is bothering him/her. This can be for example dizziness, nausea, shortness of breath of itch</li></ul>',
+    'ul1': '<ul><li>Extending life <br> Aiming at living as long as possible</li><li>Maintaining independence <br> Aiming at as much independence as possible</li><li>Reducing or eliminating pain<br> Aiming at a situation with as little pain as possible</li><li>Reducing or eliminating other symptoms <br> Aiming at a situation with as less symptom burden as possible. It is important that a patient specifies which symptom is bothering him/her. This can be for example dizziness, nausea, shortness of breath of itch</li></ul>',
     'p2': '<p>Subsequently the patient is invited to express his/her appreciation for each treatment goal.</p>',
     'ul2': '<ul><li>Each goal is allotted a score between 0 and 100. The higher the score, the more important this goal is for the patient.</li><li>The sliders of different goals cannot be put at the same height; the goals have to be ranked. By choosing one of the outcomes as very important, the patient is willing to give up some of the others in order to get more of the most important one.</li></ul>',
     'p3': '<p>This process will result in a score of four numbers. From experience we know an OPT-consultation takes 10-30 minutes. General practitioners and patients are positive about the value of the tool and say it’s easy and fast.</p>',

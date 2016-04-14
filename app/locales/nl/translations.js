@@ -8,9 +8,13 @@ export default {
   },
   'sliders': {
     'alive': 'Levensverlenging',
+    'aliveTooltip': 'Streven naar zo lang mogelijk leven',
     'independence': 'Onafhankelijkheid bewaren',
+    'independenceTooltip': 'Streven naar zo groot mogelijke zelfredzaamheid in het dagelijks leven.',
     'reducingPain': 'Pijn verminderen',
-    'reducingSymptoms': 'Andere klachten verminderen'
+    'reducingPainTooltip': 'Streven naar een situatie waarin de patiënt zo min mogelijk pijn ervaart.',
+    'reducingSymptoms': 'Andere klachten verminderen',
+    'reducingSymptomsTooltip': 'Streven naar een situatie waarin je zo min mogelijk last hebt andere symptomen, bijvoorbeeld duizeligheid, misselijkheid, kortademigheid of jeuk.'
   },
   'instructions': {
     'p1': 'Voorafgaand aan het gebruik van de OPT geeft de zorgverlener een korte uitleg. Eerst worden de vier verschillende behandeldoelen toegelicht.',
