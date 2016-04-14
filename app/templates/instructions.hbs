@@ -3,14 +3,13 @@
   {{t 'instructions.ul1'}}
   {{t 'instructions.p2'}}
 
-
-  {{#if isNl}}
-    {{t 'instructions.ul2'}}
-    {{t 'instructions.p3'}}
-    <ul>
-      <li>
-        {{t 'instructions.li1'}}
-      </li>
+  {{t 'instructions.ul2'}}
+  {{t 'instructions.p3'}}
+  <ul>
+    <li>
+      {{t 'instructions.li1'}}
+    </li>
+    {{#if isNl}}
       <li>
         <a {{action 'openModal' 'example-prom'}}>
           {{t 'instructions.li2'}}
@@ -21,8 +20,6 @@
           {{t 'instructions.li3'}}
         </a>
       </li>
-    </ul>
-  {{else}}
-    {{t 'instructions.rest'}}
-  {{/if}}
+    {{/if}}
+  </ul>
 </article>
