@@ -39,7 +39,7 @@ export default {
   'prom': {
     'title': 'Preferences of elderly people with multimorbidity (PROM)',
     'p1': 'The department general practice of the UMCG conducts research on the use of the OPT. The PROM study was conducted from October 2013 to April 2014. In elderly patients (older than 80 years) using more than five different drugs, the general practitioner had a conversation with the help of the OPT. If necessary, the prescriptions were adjusted.',
-    'li1': '<li><a href="assets/13-NTvG-medicatie-voorkeuren.pdf">Download the paper</a></li><li><a href="assets/poster-prom-2014.ppt">Download the poster (2014)</a></li><li><a href="assets/poster-prom-2015.pdf">Download de poster (2015)</a></li>'
+    'li1': '<li><a href="assets/13-NTvG-medicatie-voorkeuren.pdf">Download the paper</a></li><li><a href="assets/poster-prom-2014.ppt">Download the poster (2014)</a></li><li><a href="assets/poster-prom-2015.pdf">Download de poster (2015)</a></li><li>Van Summeren JJGT, Haaijer-Ruskamp FM, Schuling J (2016) Eliciting preferences of multimorbid elderly adults in family practice using an outcome prioritization tool. Journal American Geriatric Society, doi 10.1111/jgs.14415.</li>'
   },
   'option': {
     'p1': 'The department general practice of the UMCG conducts research on the use of the OPT. In October 2015 the OPTion study started. Elderly patients (≥ 70 years) from hospitals in the north of the Netherlands who have just been told they (probably) have incurable cancer, can participate. They will be divided into two groups by drawing lots. One group will receive care as usual, the second group has conversations with the GP to explore the treatment preferences using the OPT.',
