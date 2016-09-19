@@ -31,7 +31,7 @@ export default {
     'url': 'https://www.youtube.com/embed/GEOrnoU5ydg'
   },
   'opt': {
-    'p1': 'De OPT (outcome prioritization tool) is een gesprekshulp om behandelvoorkeuren duidelijk te maken. Het is een kaart met vier visueel analoge schalen die elk een behandeldoel weergeven:',
+    'p1': 'De OPT (Outcome Prioritization Tool) is een gesprekshulp om behandeldoelen duidelijk te maken. Het is een kaart met vier visueel analoge schalen die elk een behandeldoel weergeven:',
     'ul1': '<li>Levensverlenging</li><li>Onafhankelijkheid bewaren</li><li>Verminderen of wegnemen van pijn</li><li>Verminderen of wegnemen van andere symptomen</li>',
     'p2': 'Door een plaats op deze schaal te kiezen drukt de patiënt zijn waardering uit voor het betreffende doel en brengt een rangorde aan in de doelen.',
     'p3': 'De OPT is ontwikkeld in de Verenigde Staten in 2011<sup>1</sup> en daarna getest in Nederland.<sup>2</sup> De OPT kan door zorgverleners worden gebruikt voor verschillende patiëntengroepen en in verschillende gesprekssituaties.',
@@ -40,15 +40,15 @@ export default {
   },
   'prom': {
     'title': 'Preferenties van ouderen met multimorbiditeit (PROM)',
-    'p1': 'De afdeling huisartsgeneeskunde van het UMCG doet onderzoek naar het gebruik van de OPT. De PROM studie werd uitgevoerd van oktober 2013 t/m april 2014. Bij patiënten ouder dan 80 jaar die meer dan vijf verschillende medicijnen gebruiken voerde de huisarts een gesprek met hulp van de OPT. Zonodig werd de medicatie aangepast.',
+    'p1': 'De afdeling Huisartsgeneeskunde van het UMCG doet onderzoek naar het gebruik van de OPT. De PROM studie werd uitgevoerd van oktober 2013 t/m april 2014. Bij patiënten ouder dan 80 jaar die meer dan vijf verschillende medicijnen gebruiken voerde de huisarts een gesprek met hulp van de OPT. Zonodig werd de medicatie aangepast.',
     'li1': '<li><a href="assets/13-NTvG-medicatie-voorkeuren.pdf">Download het artikel</a></li><li><a href="assets/poster-prom-2014.pdf">Download de poster (2014)</a></li><li><a href="assets/poster-prom-2015.pdf">Download de poster (2015)</a></li>'
   },
   'option': {
-    'p1': 'De afdeling huisartsgeneeskunde van het UMCG doet onderzoek naar het gebruik van de OPT. In oktober 2015 start de OPTion-studie. Oudere patiënten (≥ 70 jaar) uit ziekenhuizen in het noorden van Nederland die net te horen hebben gekregen dat ze (waarschijnlijk) een ongeneeslijke kanker hebben, kunnen meedoen. Ze worden door loting in twee groepen verdeeld. De ene groep ontvangt zorg zoals altijd, de andere groep heeft gesprekken met de huisarts waarin de OPT wordt gebruikt.',
+    'p1': 'De afdeling huisartsgeneeskunde van het UMCG doet onderzoek naar het gebruik van de OPT. In oktober 2015 is de OPTion-studie gestart. Oudere patiënten (≥ 70 jaar) uit ziekenhuizen in het noorden van Nederland die net te horen hebben gekregen dat ze (waarschijnlijk) een ongeneeslijke kanker hebben, kunnen meedoen. Ze worden door loting in twee groepen verdeeld. De ene groep ontvangt zorg zoals altijd, de andere groep heeft gesprekken met de huisarts waarin de OPT wordt gebruikt.',
     'ul1': '<li><a href="assets/Nieuwsbrief-OPTion-studie mei2016.pdf" target="_blank">Nieuwsbrief mei 2016</a><li><a href="assets/poster-capri-2016.pdf">Poster CaPRI congres 2016</a></li><li><a href="assets/Nieuwsbrief-jan2016-2601.pdf" target="_blank">Nieuwsbrief januari 2016</a></li><li><a href="assets/option-algemene-specialisteninformatie.pdf" target="_blank">Toelichting voor specialisten</a></li><li><a href="assets/option-algemene-huisartseninformatie.pdf" target="_blank">Informatie voor huisartsen</a></li><li><a href="assets/option-informatie-patienten.pdf" target="_blank">Informatie voor patiënten</a></li>',
-    'li1': 'Uitgebreid voorbeeld OPTion test',
+    'li1': 'Uitgebreid voorbeeld OPTion interventie',
     'team': 'Het OPTion projectteam bestaat uit:',
-    'ul2': '<li>Ms. Dr A.J. (Annette) Berendsen, huisarts en projectleider</li><li>Mr. Dr J. Schuling (Jan), oud-huisarts en onderzoeker</li><li>Ms. Drs. M.E. (Mariken) Stegmann, aios huisartsgeneeskunde en promovenda</li><li>Ms. Prof. Dr. M.Y. (Marjolein) Berger, huisarts en hoofd afdeling</li>',
+    'ul2': '<li>Mw. Drs. M.E. (Mariken) Stegmann, aios Huisartsgeneeskunde en promovenda</li><li>Ms. Dr A.J. (Annette) Berendsen, huisarts en projectleider</li><li>Dhr. Dr. T.J.N. (Jeroen) Hiltermann, long-oncoloog UMCG</li><li>Mw. Dr. A.K.L. (An) Reyners, internist-oncoloog UMCG</li><li>Mr. Dr J. Schuling (Jan), oud-huisarts en onderzoeker</li><li>Mw. Drs. L.E.A.M. (Lisa) Louer, onderzoeksmedewerker Huisartsgeneeskunde</li>',
     'contact': 'Contactinformatie',
     'ul3': '<li>Tel: <a href="tel:06 155 25 388">06 155 25 388</a></li><li>Fax: 050 363 2964 (t.n.v. OPTion)</li><li><a href="mailto:option-studie@umcg.nl">option-studie@umcg.nl</a></li>'
   }
