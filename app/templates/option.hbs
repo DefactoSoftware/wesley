@@ -3,16 +3,26 @@
   <p>
     {{t 'option.p1'}}
   </p>
+
+  {{#if isNl}}
     <ul>
-      {{#if isNl}}
-        {{t 'option.ul1'}}
-        <li>
-          <a {{action 'openModal' 'example-option' }}>
-            {{t 'option.li1'}}
-          </a>
-        </li>
-      {{/if}}
+      {{t 'option.information'}}
+      <li>
+        <a {{action 'openModal' 'example-option' }}>
+          {{t 'option.li1'}}
+        </a>
+      </li>
     </ul>
+    <ul>
+      {{t 'option.nieuwsbrieven'}}
+    </ul>
+  {{/if}}
+
+  <p>
+    <ul>
+      {{t 'option.publications'}}
+    </ul>
+  </p>
   <p>
     {{t 'option.team'}}
   </p>

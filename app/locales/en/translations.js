@@ -43,6 +43,7 @@ export default {
   },
   'option': {
     'p1': 'The department general practice of the UMCG conducts research on the use of the OPT. In October 2015 the OPTion study started. Elderly patients (≥ 70 years) from hospitals in the north of the Netherlands who have just been told they (probably) have incurable cancer, can participate. They will be divided into two groups by drawing lots. One group will receive care as usual, the second group has conversations with the GP to explore the treatment preferences using the OPT.',
+    'publications': '<li><a href="assets/Abstract-Maturitas.pdf">Abstract Publication Maturitas</a></li><li><a href="assets/poster-capri-2016.pdf">Poster CaPRI Congress 2016</a></li>',
     'team': 'The OPTion project team consists of:',
     'ul2': '<li>Mrs. Drs. M.E. (Mariken) Stegmann, general practitioner in training and PhD candidate</li><li>Ms. Dr A.J. (Annette) Berendsen, GP and project leader</li><li>Mr. Dr. T.J.N. (Jeroen) Hiltermann, lung oncologists UMCG</li><li>Mrs. Dr. A.K.L. (An) Reyners, medical oncologist UMCG</li><li>Mr. Dr J. Schuling (Jan), former GP and researcher</li><li>Mrs. Drs. L.E.A.M. (Lisa) Louer, research assistant general practice</li>',
     'contact': 'Contact Information',
